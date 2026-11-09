@@ -1,0 +1,378 @@
+{
+ "note": "Placeholders are procedural pixel art from tools/gen_assets.py. replace=true marks art to swap for Higgsfield (Unlimited mode only). Keep paths/sizes; sheets must keep frame layout.",
+ "style": "16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark",
+ "sheets": [
+  {
+   "key": "eve",
+   "path": "assets/sprites/eve.png",
+   "frameWidth": 64,
+   "frameHeight": 72,
+   "frames": [
+    "idle",
+    "idle2",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "jab",
+    "cross",
+    "upper",
+    "kick",
+    "jump",
+    "jkick",
+    "hurt",
+    "down",
+    "spin",
+    "win"
+   ],
+   "replace": false
+  },
+  {
+   "key": "banker",
+   "path": "assets/sprites/banker.png",
+   "frameWidth": 64,
+   "frameHeight": 72,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  },
+  {
+   "key": "politician",
+   "path": "assets/sprites/politician.png",
+   "frameWidth": 64,
+   "frameHeight": 72,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  },
+  {
+   "key": "ceo",
+   "path": "assets/sprites/ceo.png",
+   "frameWidth": 64,
+   "frameHeight": 72,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  },
+  {
+   "key": "lobbyist",
+   "path": "assets/sprites/lobbyist.png",
+   "frameWidth": 64,
+   "frameHeight": 72,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  },
+  {
+   "key": "chairman",
+   "path": "assets/sprites/chairman.png",
+   "frameWidth": 83,
+   "frameHeight": 93,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  },
+  {
+   "key": "bumbleton",
+   "path": "assets/sprites/bumbleton.png",
+   "frameWidth": 83,
+   "frameHeight": 93,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  },
+  {
+   "key": "tremp",
+   "path": "assets/sprites/tremp.png",
+   "frameWidth": 83,
+   "frameHeight": 93,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  },
+  {
+   "key": "vlad",
+   "path": "assets/sprites/vlad.png",
+   "frameWidth": 83,
+   "frameHeight": 93,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  },
+  {
+   "key": "bear",
+   "path": "assets/sprites/bear.png",
+   "frameWidth": 80,
+   "frameHeight": 56,
+   "frames": [
+    "idle",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "windup",
+    "punch",
+    "hurt",
+    "down",
+    "throw",
+    "grab"
+   ],
+   "replace": false
+  }
+ ],
+ "images": [
+  {
+   "key": "far_bank",
+   "path": "assets/bg/far_bank.png",
+   "replace": true,
+   "size": "640x270 placeholder; any 16:9 (e.g. 1920x1080) works, it is scaled to 270px high and tiled as parallax",
+   "prompt": "Side-scrolling beat 'em up backdrop, 16:9, goth district at night: Gothic cathedral spires and dark tenements behind a row of pompous neoclassical bank buildings with columns, crescent moon, purple fog. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark"
+  },
+  {
+   "key": "street_bank",
+   "path": "assets/bg/street_bank.png",
+   "replace": false,
+   "size": "stage-length x 270 foreground (keep procedural or replace with a wide panorama strip)"
+  },
+  {
+   "key": "far_westminster",
+   "path": "assets/bg/far_westminster.png",
+   "replace": true,
+   "size": "640x270 placeholder; any 16:9 (e.g. 1920x1080) works, it is scaled to 270px high and tiled as parallax",
+   "prompt": "Side-scrolling beat 'em up backdrop, 16:9, rainy London-like old street at night, a big Gothic clock tower in the distance, red double-decker bus and red phone box, wet cobblestones reflecting warm lamps, satirical mood. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark"
+  },
+  {
+   "key": "street_westminster",
+   "path": "assets/bg/street_westminster.png",
+   "replace": false,
+   "size": "stage-length x 270 foreground (keep procedural or replace with a wide panorama strip)"
+  },
+  {
+   "key": "far_golden",
+   "path": "assets/bg/far_golden.png",
+   "replace": true,
+   "size": "640x270 placeholder; any 16:9 (e.g. 1920x1080) works, it is scaled to 270px high and tiled as parallax",
+   "prompt": "Side-scrolling beat 'em up backdrop, 16:9, gaudy gold-plated skyscraper at night with stars-and-stripes style bunting, casino lights, limousines, red-white-blue neon, over-the-top luxury, satirical. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark"
+  },
+  {
+   "key": "street_golden",
+   "path": "assets/bg/street_golden.png",
+   "replace": false,
+   "size": "stage-length x 270 foreground (keep procedural or replace with a wide panorama strip)"
+  },
+  {
+   "key": "far_fortress",
+   "path": "assets/bg/far_fortress.png",
+   "replace": true,
+   "size": "640x270 placeholder; any 16:9 (e.g. 1920x1080) works, it is scaled to 270px high and tiled as parallax",
+   "prompt": "Side-scrolling beat 'em up backdrop, 16:9, red brick fortress walls with swallowtail battlements and onion domes at night, snow falling, red stars on towers, cold blue moonlight, satirical. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark"
+  },
+  {
+   "key": "street_fortress",
+   "path": "assets/bg/street_fortress.png",
+   "replace": false,
+   "size": "stage-length x 270 foreground (keep procedural or replace with a wide panorama strip)"
+  },
+  {
+   "key": "title_bg",
+   "path": "assets/ui/title_bg.png",
+   "replace": true,
+   "size": "960x540 placeholder; 16:9 any size",
+   "prompt": "Title screen key art, 16:9: Eve, adult goth woman, short sleek black bob with straight bangs, brown eyes, sharp winged eyeliner, septum ring and two lower-lip piercings, gold hoop earrings, black choker, curvy figure, black corset top (fully covered), red tartan mini skirt, fishnet tights, black platform boots, fingerless gloves, fighting stance, fists raised, smirking, on a rooftop above a goth city at night with a giant moon, several cartoon men in suits knocked over in the background. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark"
+  },
+  {
+   "key": "portrait_eve",
+   "path": "assets/ui/portrait_eve.png",
+   "replace": true,
+   "size": "64x64 placeholder; any square",
+   "prompt": "Square HUD portrait, head and shoulders: Eve, adult goth woman, short sleek black bob with straight bangs, brown eyes, sharp winged eyeliner, septum ring and two lower-lip piercings, gold hoop earrings, black choker, curvy figure, black corset top (fully covered), red tartan mini skirt, fishnet tights, black platform boots, fingerless gloves, confident smirk. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark, dark purple background"
+  },
+  {
+   "key": "portrait_banker",
+   "path": "assets/ui/portrait_banker.png",
+   "replace": false,
+   "size": "64x64 placeholder; any square"
+  },
+  {
+   "key": "portrait_politician",
+   "path": "assets/ui/portrait_politician.png",
+   "replace": false,
+   "size": "64x64 placeholder; any square"
+  },
+  {
+   "key": "portrait_ceo",
+   "path": "assets/ui/portrait_ceo.png",
+   "replace": false,
+   "size": "64x64 placeholder; any square"
+  },
+  {
+   "key": "portrait_lobbyist",
+   "path": "assets/ui/portrait_lobbyist.png",
+   "replace": false,
+   "size": "64x64 placeholder; any square"
+  },
+  {
+   "key": "portrait_chairman",
+   "path": "assets/ui/portrait_chairman.png",
+   "replace": true,
+   "size": "64x64 placeholder; any square",
+   "prompt": "Square boss portrait, head and shoulders, angry expression: fat fictional bank chairman, top hat, gold monocle, purple pinstripe suit, gold watch chain, smug grin. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark, dark red background"
+  },
+  {
+   "key": "portrait_bumbleton",
+   "path": "assets/ui/portrait_bumbleton.png",
+   "replace": true,
+   "size": "64x64 placeholder; any square",
+   "prompt": "Square boss portrait, head and shoulders, angry expression: light satirical caricature of a bumbling British-style politician: wild messy platinum-blond mop hair, rumpled navy suit, loose blue tie, pouting, holding a crumpled pledge paper; fictional character 'Bojo Bumbleton', not a real person's likeness. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark, dark red background"
+  },
+  {
+   "key": "portrait_tremp",
+   "path": "assets/ui/portrait_tremp.png",
+   "replace": true,
+   "size": "64x64 placeholder; any square",
+   "prompt": "Square boss portrait, head and shoulders, angry expression: light satirical caricature of a brash tycoon-politician: tall swept orange-blond pompadour, orange tan, very long red tie, navy suit, pouty mouth, pointing finger, gold tower behind; fictional character 'Donny Tremp', not a real person's likeness. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark, dark red background"
+  },
+  {
+   "key": "portrait_vlad",
+   "path": "assets/ui/portrait_vlad.png",
+   "replace": true,
+   "size": "64x64 placeholder; any square",
+   "prompt": "Square boss portrait, head and shoulders, angry expression: light satirical caricature of a short stern strongman leader: balding light hair, cold stare, white judo gi with black belt and toy medals, a brown bear sidekick in a red hat; fictional character 'Vlad the Short', not a real person's likeness. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark, dark red background"
+  },
+  {
+   "key": "portrait_bear",
+   "path": "assets/ui/portrait_bear.png",
+   "replace": true,
+   "size": "64x64 placeholder; any square",
+   "prompt": "Square portrait of a cartoon brown bear bodyguard wearing a tiny red hat, growling. 16-bit pixel art, 1990s Amiga beat 'em up style, moody night lighting, purple and magenta neon, no text, no watermark"
+  },
+  {
+   "key": "coffee",
+   "path": "assets/sprites/coffee.png",
+   "replace": false
+  },
+  {
+   "key": "snack",
+   "path": "assets/sprites/snack.png",
+   "replace": false
+  },
+  {
+   "key": "coin",
+   "path": "assets/sprites/coin.png",
+   "replace": false
+  },
+  {
+   "key": "paper",
+   "path": "assets/sprites/paper.png",
+   "replace": false
+  },
+  {
+   "key": "tweet",
+   "path": "assets/sprites/tweet.png",
+   "replace": false
+  },
+  {
+   "key": "egg",
+   "path": "assets/sprites/egg.png",
+   "replace": false
+  },
+  {
+   "key": "spark",
+   "path": "assets/sprites/spark.png",
+   "replace": false
+  },
+  {
+   "key": "shadow",
+   "path": "assets/sprites/shadow.png",
+   "replace": false
+  }
+ ]
+}

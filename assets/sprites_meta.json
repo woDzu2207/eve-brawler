@@ -1,0 +1,197 @@
+{
+ "eve": {
+  "frames": [
+   "idle",
+   "idle2",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "jab",
+   "cross",
+   "upper",
+   "kick",
+   "jump",
+   "jkick",
+   "hurt",
+   "down",
+   "spin",
+   "win"
+  ],
+  "size": [
+   64,
+   72
+  ]
+ },
+ "banker": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   64,
+   72
+  ]
+ },
+ "politician": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   64,
+   72
+  ]
+ },
+ "ceo": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   64,
+   72
+  ]
+ },
+ "lobbyist": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   64,
+   72
+  ]
+ },
+ "chairman": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   83,
+   93
+  ]
+ },
+ "bumbleton": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   83,
+   93
+  ]
+ },
+ "tremp": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   83,
+   93
+  ]
+ },
+ "vlad": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   83,
+   93
+  ]
+ },
+ "bear": {
+  "frames": [
+   "idle",
+   "walk1",
+   "walk2",
+   "walk3",
+   "walk4",
+   "windup",
+   "punch",
+   "hurt",
+   "down",
+   "throw",
+   "grab"
+  ],
+  "size": [
+   80,
+   56
+  ]
+ }
+}
